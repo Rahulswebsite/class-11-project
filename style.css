@@ -27,7 +27,7 @@ ul {
 /*=======Nav-bar=======*/
 
 header{
-    background-color:var(--color-purple);
+    background-color:var(--color-blue);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,16 +40,30 @@ header{
     color: white;
 }
 
+li{
+    display: inline;
+}
+
 .nav-link{
   color: white;
   text-decoration: none;
+  margin: 0 0.8rem;
 }
 
-li{
-  display: inline;
-  margin: 0 1rem ;
+.nav-link:hover{
+    color: var(--color-purple)
 }
 
 
 
 
+@media only screen and (max-width: 600px) {
+    .logo{
+        font-size: 2rem;
+        padding-left:0.5rem;
+    }
+    .nav-link{
+        margin: 0 0.2rem;
+        font-size: 0.9rem;
+    }
+  }
