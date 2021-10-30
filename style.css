@@ -32,10 +32,10 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
+    font-family: 'Dancing Script', cursive;
 }
 
 .logo{
-    font-family: 'Dancing Script', cursive;
     font-size: 2.6rem;
     padding-left: 1rem;
     color: white;
@@ -48,23 +48,41 @@ li{
 .nav-link{
   color: white;
   text-decoration: none;
-  margin: 0 0.8rem;
+  margin: 0 1rem;
+  font-size: x-large;
 }
 
 .nav-link:hover{
-    color: var(--color-purple)
+    color: black;
 }
+
+.home-section{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+
+
+.profile-img{
+    width:40%;
+    border-radius: 50% ;
+}
+
+
 
 
 
 
 @media only screen and (max-width: 600px) {
     .logo{
-        font-size: 2rem;
-        padding-left:0.5rem;
+        font-size: 2.2rem;
+        padding-left:0.4rem;
     }
     .nav-link{
-        margin: 0 0.2rem;
-        font-size: 0.9rem;
+        margin: 0 0.5rem;
+        font-size: larger;
     }
   }
