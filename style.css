@@ -63,16 +63,13 @@ li {
 
 .section {
     height: 100vh;
+    padding-top:6rem;
 }
 
 /* Home */
 
-.home {
-    background-color: white;
-}
 
 /* Presentation */
-
 
 
 
