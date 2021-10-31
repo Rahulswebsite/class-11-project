@@ -9,22 +9,18 @@
     --color-purple: #9F2BC1;
     --color-red: #D31A50;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     line-height: 1.7;
 }
-
-ul {
+.ul {
     list-style-type: none;
 }
 
@@ -45,7 +41,7 @@ header {
     padding-left: 1rem;
     color: white;
 }
-li {
+.nav{
     display: inline;
 }
 .nav-link {
@@ -69,10 +65,56 @@ li {
 /* Home */
 
 
+
+
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
 /* Presentation */
-
-
-
+.presentation{
+    color: var(--color-purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 120vh;
+}
+h3{
+    text-align: center;
+    margin: 1rem;
+}
+.chapter>a{
+    color:var(--color-purple);
+    text-decoration:none;
+}
+.cs-book{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    padding: 2.5rem;
+    background-color: rgb(238, 234, 234);
+}
+.cs-practices{
+    width:95%;
+    margin:1rem;
+    padding:2.5rem;
+    background-color: rgb(238, 234, 234);
+}
 
 
 
